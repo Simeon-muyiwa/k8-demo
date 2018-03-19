@@ -6,9 +6,9 @@ labels:
   app: k8-article
 spec:
   containers:
-     - name: k8s-demo
+     - name: k8-demo
        image: muyiwas/k8-demo
        ports:
-       -name: rails-port
+       - name: rails-port
        - containerPort: 3000
 

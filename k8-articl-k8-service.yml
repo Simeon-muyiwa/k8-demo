@@ -9,5 +9,4 @@ spec:
        protocol: TCP
        selector:
          app: k8-article
-         type: LoadBalancer
-       
+      type: LoadBalancer

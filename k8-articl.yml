@@ -1,0 +1,13 @@
+apiversion: vl
+kind: Pod
+metadata:
+  name: devresoler.co.uk
+labels:
+  app: k8-article
+spec:
+  containers:
+     - name: k8s-demo
+       image: muyiwa/k8s-demo
+ports:
+  - containerPort: 3000
+

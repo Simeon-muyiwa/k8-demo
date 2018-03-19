@@ -1,4 +1,4 @@
-apiversion: vl
+apiversion: v1
 kind: Pod
 metadata:
   name: devresoler.co.uk
@@ -7,7 +7,7 @@ labels:
 spec:
   containers:
      - name: k8s-demo
-       image: muyiwa/k8s-demo
-ports:
-  - containerPort: 3000
+       image: muyiwas/k8-demo
+       ports:
+       - containerPort: 3000
 

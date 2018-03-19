@@ -8,5 +8,5 @@ spec:
        targetPort: rails-port
        protocol: TCP
        selector:
-         app: k8-article
+         app: k8-articl
       type: LoadBalancer

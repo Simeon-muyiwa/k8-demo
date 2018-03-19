@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: devresoler.co.uk
 labels:
-  app: k8-article
+  app: k8-articl
 spec:
   containers:
      - name: k8-demo

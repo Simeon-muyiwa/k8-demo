@@ -1,12 +1,12 @@
-apiversion: v1
+apiVersion: v1
 kind: Service
 metadata:
-  name: devresoler-service
+  name: devresolver-service
 spec:
   ports:
-     - port: 80
-       targetPort: rails-port
-       protocol: TCP
-       selector:
-        app: k8-articl
-      type: LoadBalancer
+  - port: 80
+    targetPort: rails-port
+    protocol: TCP
+  selector:
+    app: k8-articl
+  type: LoadBalancer 

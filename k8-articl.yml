@@ -9,5 +9,6 @@ spec:
      - name: k8s-demo
        image: muyiwas/k8-demo
        ports:
+       -name: rails-port
        - containerPort: 3000
 
